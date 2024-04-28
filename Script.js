@@ -74,3 +74,4 @@ function updateCartView() {
 }
 
 window.onload = loadProducts;
+
