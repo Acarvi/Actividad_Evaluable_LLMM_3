@@ -1,0 +1,22 @@
+/* Espaciado general de la página */
+body {
+    padding-top: 20px;
+}
+
+/* Estilos específicos para el carrito de compras */
+#cart-section {
+    position: fixed; /* Fija el carrito en la parte superior derecha */
+    top: 20px; /* Espacio desde la parte superior */
+    right: 20px; /* Espacio desde la derecha */
+    width: 300px; /* Ancho del carrito */
+}
+
+/* Estiliza las cartas de productos */
+.card {
+    margin-bottom: 20px; /* Espacio inferior entre tarjetas */
+}
+
+/* Estilo para el botón de Añadir al Carrito */
+.btn-success {
+    width: 100%; /* Hace que el botón ocupe todo el ancho de la tarjeta */
+}
