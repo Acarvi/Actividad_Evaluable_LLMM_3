@@ -20,3 +20,9 @@ body {
 .btn-success {
     width: 100%; /* Hace que el botón ocupe todo el ancho de la tarjeta */
 }
+
+/* Ajustes adicionales para la lista del carrito */
+#cart {
+    min-height: 100px; /* Altura mínima para la lista del carrito */
+    overflow-y: auto; /* Hace que el carrito sea scrollable si hay muchos productos */
+}
